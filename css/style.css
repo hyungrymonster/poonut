@@ -1,0 +1,263 @@
+@charset "UTF-8";
+* {box-sizing:border-box;}
+html,body,div {margin:0; padding:0;}
+
+nav {
+    float:left;
+    color:#fff;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    display: block;
+    position: fixed;
+    background-color:#FDF9F4;
+    width:100%;
+}
+
+nav ul li {
+    display:inline-block;
+}
+
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color:#8B7357;
+    padding:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+}
+
+nav ul li a:hover {
+    background-color:#FDF1DF;
+}
+.wrapper {
+    background-color:#fff;
+}
+.logoimg {
+    width:100%;
+    max-width: 100px;
+    vertical-align: middle;
+}
+
+.headerimg {
+    width:100%;
+    padding:0;
+}
+
+.donutimg {
+    margin:0 auto;
+    display: block;
+    width:100%;
+    max-width: 150px;
+}
+
+
+#content-donuts h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#EF4000;
+    padding: 30px;
+    margin:0;
+}
+
+#content-donuts .donut {
+    float: left;
+    margin: 0 auto;
+    width: 25%;
+    padding: 0 0 35px 0;
+}
+
+p.donutnames {
+    font-family: 'Montserrat', sans-serif;
+    color:#8B7357;
+    text-align: center;
+    font-weight: bold;
+    font-size:18px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+
+.donutbutton {
+    background-color:#FFDC1A;
+    border-radius: 50px;
+    width:120px;
+    display: block;
+    margin:0 auto;
+}
+
+p.donutinfo {
+    color:#727272;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: regular;
+    font-size:12px;
+    padding:10px;
+
+}
+
+.contactinfo {
+    cursor: pointer;
+}
+
+#content-header-bg {
+    background-image: url("../images/PoonutBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both;
+}
+
+
+#content-instagram h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#EF4000;
+    padding: 30px;
+    margin:0;
+}
+
+#content-instagram .insta {
+    float: left;
+    margin: 0 auto;
+    width: 25%;
+    padding: 0 0 35px 0;
+}
+#content-header-bg {
+    padding:8%;
+}
+
+
+#content-header-bg .fas {
+    color:#fff;
+    font-size:40px;
+}
+
+#content-header-bg h3 {
+    text-align: center;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size:32px;
+}
+
+.instaimg {
+    margin:0 auto;
+    display: block;
+    width:100%;
+}
+
+@media (max-width:810px) {
+    .donutimg {
+        max-width: 120px;
+    }
+
+    p.donutnames {
+        font-size:15px;
+    }
+
+    p.donutinfo {
+        font-size:10px;
+
+    }
+
+    .donutbutton {
+        width:100px;
+    }
+
+    #content-header-bg .fas {
+        font-size:30px;
+    }
+
+    #content-header-bg h3 {
+        font-size:24px;
+    }
+}
+
+@media (max-width:650px) {
+    .donutimg {
+        max-width: 100px;
+    }
+
+    p.donutnames {
+        font-size:13px;
+    }
+
+    p.donutinfo {
+        font-size:10px;
+
+    }
+
+    .donutbutton {
+        width:95px;
+    }
+    #content-donuts h2 {
+        padding: 20px;
+        font-size:20px;
+    }
+    #content-instagram h2 {
+        padding: 20px;
+        font-size:20px;
+    }
+
+}
+
+
+@media (max-width:605px) {
+    #content-header-bg .fas {
+        font-size:20px;
+    }
+
+    #content-header-bg h3 {
+        font-size:18px;
+    }
+}
+
+
+@media (min-width:490px) {
+    .hamburger {display: none;}
+}
+
+@media (max-width:490px) {
+    nav ul li {
+        display:none;
+    }
+
+    .poonut {
+        background-color:#FDF9F4;
+        padding:10px 20px;
+    }
+
+    .poonut .fas {
+        color:#8B7357;
+    }
+    .poonut img {
+        font-size:16px;
+        display: block;
+        width:100%;
+        max-width: 80px;
+        float:right;
+
+    }
+
+    .poonut:hover{
+        cursor: pointer;
+        background-color:#FDF1DF;
+    }
+
+    #content-donuts .donut {
+        width: 50%;
+        padding: 0 0 15px 0;
+    }
+
+    #content-instagram .insta {
+        width: 50%;
+        padding: 0;
+    }
+
+
+
+}
